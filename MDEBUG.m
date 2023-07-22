@@ -29,7 +29,7 @@ INIT    			;Open TCP-Communication-Port
 	N %IO,%DEV,%PORT,%SOCKET,%ZTFORM
 	;USE $P:(EXCEPTION="D BYE":CTRAP=$C(3))	;Ensure Clean-Up when Ctrl-C is pressed
 	USE $P	;Ensure Clean-Up when Ctrl-C is pressed
-	S %IO=$I,%PORT=9000,%DEV="|TCP|"_%PORT_"|"_$J
+	S %IO=$I,%PORT=emptPort,%DEV="|TCP|"_%PORT_"|"_$J
 	O %DEV:(ZLISTEN=%PORT_":TCP":NODELIMITER:ATTACH="listener"):5:"SOCKET"
 	E  U 0 W "DEBUG-Port could not be opened.",! HALT
 	U %DEV
