@@ -29,10 +29,6 @@ interface LaunchRequestArguments extends DebugProtocol.LaunchRequestArguments {
 	stopOnEntry?: boolean;
 	/** enable logging the Debug Adapter Protocol */
 	trace?: boolean;
-	/** The Port on which MDEBUG listens */
-	port: number;
-	/**The Hostname of the MDEBUG-Server */
-	hostname: string;
 	/**Map Local-Routines to Host-Routines */
 	localRoutinesPath: string;
 	/**Flag if internal Database for M-Labels should be build up */

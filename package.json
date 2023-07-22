@@ -125,9 +125,7 @@
 						"request": "launch",
 						"name": "Active File",
 						"program": "${file}",
-						"hostname": "localhost",
-						"port": 9000,
-						"localRoutinesPath": "y:\\",
+						"localRoutinesPath": "/home/vista/EHR/r/",
 						"stopOnEntry": true
 					}
 				],
@@ -140,9 +138,7 @@
 							"request": "launch",
 							"name": "Active File",
 							"program": "${file}",
-							"hostname": "localhost",
-							"port": 9000,
-							"localRoutinesPath": "y:\\",
+							"localRoutinesPath": "/home/vista/EHR/r/",
 							"stopOnEntry": true
 						}
 					},
