@@ -1,0 +1,1 @@
+{"version":3,"file":"mumpsSignatureHelpProvider.js","sourceRoot":"","sources":["../src/mumpsSignatureHelpProvider.ts"],"names":[],"mappings":";;AACA,qDAAoD;AACpD,MAAqB,0BAA0B;IAC9C,oBAAoB,CAAC,QAA6B,EAAE,QAAyB;QAC5E,MAAM,MAAM,GAAG,IAAI,iCAAgB,CAAC,QAAQ,EAAE,QAAQ,CAAC,CAAC;QACxD,OAAO,MAAM,CAAC,iBAAiB,EAAE,CAAC;IACnC,CAAC;CACD;AALD,6CAKC"}

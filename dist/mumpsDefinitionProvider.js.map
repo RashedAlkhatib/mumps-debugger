@@ -1,0 +1,1 @@
+{"version":3,"file":"mumpsDefinitionProvider.js","sourceRoot":"","sources":["../src/mumpsDefinitionProvider.ts"],"names":[],"mappings":";;AACA,qDAAoD;AAEpD,MAAqB,uBAAuB;IAC3C,iBAAiB,CAAC,QAA6B,EAAE,QAAyB;QACzE,MAAM,MAAM,GAAG,IAAI,iCAAgB,CAAC,QAAQ,EAAE,QAAQ,CAAC,CAAC;QACxD,OAAO,MAAM,CAAC,mBAAmB,EAAE,CAAC;IACrC,CAAC;CACD;AALD,0CAKC"}
