@@ -6,6 +6,7 @@ This is an extention that allows you to code and debug Mumps using VS Code
 * Watch Video [Video](https://github.com/RashedAlkhatib/mumps-debugger/blob/main/MumpsDebug-Rashed-tutorial.webm) **Highly Recommended**
 * install the Docker Image from here [GT.M Docker](https://github.com/RashedAlkhatib/GT.M-Docker) **Highly Recommended**
 * Install the [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) extension in VS Code.
+* connect to **GT.M DOCKER** using **Remote - SSH** from your local VSCODE
 * Install the [Mumps Debugger](https://marketplace.visualstudio.com/items?itemName=RashedAlkhatib.Mumps-Debugger) extension in VS Code.
 * Put the [MDEBUG.m](https://github.com/RashedAlkhatib/mumps-debugger/blob/main/MDEBUG.m) Routine in your M-Program-Directory and start it.
 * Edit the launch.json and set routine path(localRoutinesPath) where GT.M is linked to ALSO **NOTE MDEBUG.m must be installed on your GTM server**.
