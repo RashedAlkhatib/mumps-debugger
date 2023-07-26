@@ -1,4 +1,4 @@
-MDEBUG  			;Debugging Routine for GT.M/YottaDB by Jens Wulf
+MDEBUG  			;Debugging Routine for GT.M/YottaDB by Jens Wulf,Rashed Alkhatib
 				;Version 0.9.4
 				;2023-04-24
 				;License: LGPL

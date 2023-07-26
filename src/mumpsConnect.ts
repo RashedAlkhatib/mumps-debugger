@@ -1,6 +1,5 @@
 /*
-	Connector to MDEBUG-Server by Jens Wulf
-	License: LGPL
+	Connector to MDEBUG-Server by Jens Wulf, Rashed Alkhatib
 */
 import { DebugProtocol } from '@vscode/debugprotocol';
 import { Socket } from "net";

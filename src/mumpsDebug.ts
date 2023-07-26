@@ -1,7 +1,6 @@
 /*
-	Implementation of DebugProtocol-Server for GT.M, Yottadb by Jens Wulf
+	Implementation of DebugProtocol-Server for GT.M, Yottadb by Jens Wulf,Rashed Alkhatib
 	based on Mock-Debug by Microsoft Corp.
-	License: LGPL
 */
 
 import {
