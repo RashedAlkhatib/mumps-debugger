@@ -20,6 +20,7 @@ import fs = require('fs');
 let timeout: ReturnType<typeof setTimeout> | undefined;
 const entryRef: string | undefined = "";
 export async function activate(context: vscode.ExtensionContext) {
+
 	const MUMPS_MODE: vscode.DocumentFilter = { language: 'mumps', scheme: 'file' };
 	// register a configuration provider for 'mumps' debug type
 	const mumpsDiagnostics = vscode.languages.createDiagnosticCollection("mumps");
@@ -54,6 +55,8 @@ export async function activate(context: vscode.ExtensionContext) {
 		vscode.workspace.onDidChangeTextDocument(editor => { if (editor) { triggerUpdateDiagnostics(editor.document, mumpsDiagnostics) } }),
 		vscode.workspace.onDidOpenTextDocument(document => { triggerUpdateDiagnostics(document, mumpsDiagnostics) })
 	);
+	const config = vscode.workspace.getConfiguration('editor');
+    config.update('formatOnSave', false, vscode.ConfigurationTarget.Global);
 }
 
 export function deactivate() {

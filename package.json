@@ -1,7 +1,7 @@
 {
 	"name": "Mumps-Debugger",
 	"displayName": "Mumps Debugging",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"publisher": "RashedAlkhatib",
 	"description": "Debugger for Mumps (M) ,GT.M",
 	"author": {
@@ -207,7 +207,7 @@
 		"configurationDefaults": {
 			"[mumps]": {
 				"editor.insertSpaces": false,
-				"editor.formatOnSave": true
+				"editor.formatOnSave": false
 			}
 		},
 		"breakpoints": [
